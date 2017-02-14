@@ -1,0 +1,37 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.carousel ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 300px;
+    width: 9999px;
+    overflow: hidden;
+}
+.carousel li {
+    float: left;
+}
+.carousel img {
+    display: block;
+    max-width: 100%;
+}
+/* controls */
+.carousel .prev,
+.carousel .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 10%;
+    height: 80%;
+    background: red;
+    transform: translate(0, -50%);
+}
+.carousel .prev {
+    left: 0;
+}
+.carousel .next {
+    right: 0;
+}
